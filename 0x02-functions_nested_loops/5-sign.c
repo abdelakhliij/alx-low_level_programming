@@ -24,4 +24,7 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
+	
+	// Default return statement (should never reach here, but included to satisfy the compiler)
+	return 0;
 }
